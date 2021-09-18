@@ -3,6 +3,12 @@ languageCode = 'en-us'
 title = 'Ismael Aboubakar Blog'
 theme = 'cleanwhite'
 
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+googleAnalytics = ""
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+hasCJKLanguage = true
 
 [params]
   header_image = "img/fv.jpg"
