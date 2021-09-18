@@ -2,3 +2,7 @@ baseURL = 'https://aboubakarismael16.netlify.app/'
 languageCode = 'en-us'
 title = 'Ismael Aboubakar Blog'
 theme = 'cleanwhite'
+
+
+[params]
+  header_image = "img/fv.jpg"
