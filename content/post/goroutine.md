@@ -2,11 +2,11 @@
 title:       "Goroutine"
 subtitle:    'goroutine and channel'
 description: 'Go is a language supporting built-in concurrent programming. By using the "go" keyword to create goroutines (light weight threads) and by using channels and other concurrency synchronization techniques provided in Go, concurrent programming becomes easy, flexible and enjoyable.'
-date:        2018-06-04
+date:        2021-09-04
 author:      "Aboubakar Ismael"
 image:       ""
-tags:        ["tag1", "tag2"]
-categories:  ["Tech" ]
+tags:        ["goroutine", "channel"]
+categories:  ["Golang" ]
 ---
 
 
