@@ -6,7 +6,7 @@ date:        2021-09-04
 author:      "Aboubakar Ismael"
 image:       ""
 tags:        ["goroutine", "channel"]
-categories:  ["Golang" ]
+categories:  ["Tech" ]
 ---
 
 
