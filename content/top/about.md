@@ -1,9 +1,3 @@
----
-title: "About"
-date: 2021-09-19T08:48:41+08:00
-draft: true
----
-
 **Ismael Aboubakar** is a student with a passion for open source, Deep Learning. He has a solid experience in the golang and data structure.
 
 He also has strong interests in various tech stuff such as Artificial Intelligence, Cryptocurrencies, Big Startups.
