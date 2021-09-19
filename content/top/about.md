@@ -4,7 +4,7 @@ He also has strong interests in various tech stuff such as Artificial Intelligen
 
 Ismael Aboubakar holds a BS in Petroleum Engineering from Northeast Petroleum University in China(Daqing).
 
-Currently, Ismael Aboubakar is working for CNPic/Chad (China National Petroleum Coorporation internation Chad).
+Currently, Ismael Aboubakar is working for China National Petroleum Corporation International Chad (CNPCIC).
 
 He is happy with his current job, but also willing to take new challenges if the opportunity matches his career path.
 
