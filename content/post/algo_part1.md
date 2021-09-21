@@ -4,7 +4,7 @@ subtitle:    ""
 description: ""
 date:        2021-09-19
 author:      "Aboubakar ismael"
-image:       ""
+image:       "img/speed.jpg"
 #tags:        ["tag1", "tag2"]
 categories:  ["Tech" ]
 ---
