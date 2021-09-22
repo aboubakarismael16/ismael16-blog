@@ -4,7 +4,7 @@ subtitle:    ""
 description: ""
 date:        2021-09-22
 author:      "Aboubakar Ismael"
-image:       "img/slice_array.png"
+image:       ""
 tags:        ""
 categories:  ["Tech" ]
 ---
