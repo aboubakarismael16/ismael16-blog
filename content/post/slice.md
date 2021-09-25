@@ -4,7 +4,7 @@ subtitle:    ""
 description: "Arrays, after declared of some size, cannot be resized, but  slices  can be resized. Slices are reference-types while arrays are value-type."
 date:        2021-09-22
 author:      "Aboubakar Ismael"
-image:       "/img/slice_array.jpg"
+image:       "img/slice_array.png"
 tags:        ["slice", "array"]
 categories:  ["Tech" ]
 ---

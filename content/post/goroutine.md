@@ -322,7 +322,8 @@ func main() {
 Channel is divided into two types: `buffered channel` and `unbuffered channel` .  We can also use  "synchronous mode" for `unbeffered channel` and  "asynchronous mode" for `buffered channel`.
 
 ```go
-ch1 := make(chan type, capacity) // buffered channelch2 := make(chan int)     // unbeffered channel
+ch1 := make(chan type, capacity) // buffered 
+channelch2 := make(chan int)     // unbeffered channel
 ```
 
 In synchronous mode, the sender and receiver must be paired for the operation to succeed, otherwise it will be blocked. In asynchronous mode, the buffer slot must have remaining capacity for the operation to succeed, otherwise it will be blocked.
@@ -360,7 +361,8 @@ func main() {
 In the program above, a buffered channel `ch` of capacity `2` is created in the  `main goroutine`  and passed to the `write goroutine` . Then the main Goroutine sleeps for 2 seconds. During this time, the `write` Goroutine is running concurrently. The `write` Goroutine has a `for` loop which writes numbers from 0 to 4 to the `ch` channel. The capacity of this buffered channel is `2` and hence the write `Goroutine` will be able to write values `0` and `1` to the `ch` channel immediately and then it blocks until at least one value is read from `ch` channel. So this program will print the following 2 lines immediately.
 
 ```go
-successfully wrote 0 to ch  successfully wrote 1 to ch  
+successfully wrote 0 to ch  
+successfully wrote 1 to ch  
 ```
 
 After printing the above two lines, the writes to the `ch` channel in the `write` Goroutine are blocked until someone reads from the `ch` channel. Since the main Goroutine sleeps for 2 seconds before starting  to read from the channel, the program will not print anything for the  next 2 seconds.  The `main` Goroutine wakes up after 2 seconds and starts reading from the `ch` channel using a `for range` loop , prints the read value and then sleeps for 2 seconds again and this cycle continues until the `ch` is closed. So the program will print the following lines after 2 seconds : 
