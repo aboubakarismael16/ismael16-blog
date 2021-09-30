@@ -18,7 +18,7 @@ hasCJKLanguage = true
   slogan = "天下没有免费的午餐"
 
   image_404 = "img/404-bg.jpg"
-  title_404 = "你来到了没有知识的荒原 :("
+  title_404 = "你来到了没有知识的荒原 🤭"
   omit_categories = false
 
   # leancloud storage for page view counter
