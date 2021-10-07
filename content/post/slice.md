@@ -187,7 +187,7 @@ In addition to the make function that can create slices, literals can also creat
 
 
 
-![slice04](/home/aboubakar/Pictures/slice04.jpg)
+![slice04](/img/slice04.jpg)
 
 Here is a slice with `len = 5 ` and `cap = 5 ` created with literals. At this time, the value of each element in the array is initialized. **It should be noted that the capacity of the array should not be written in []**, because if the number is written, it will be an **array** instead of a **slice**.
 
